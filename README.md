@@ -1,1 +1,1 @@
-# Vaibad-O-veebileht
+# Vaibad OÜ veebileht
