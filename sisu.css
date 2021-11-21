@@ -97,3 +97,15 @@ alam_pealkiri {
     font-weight: bolder;
     font-style: italic;
 }
+
+img#tiimipilt {
+                                    
+    height:290px;
+    box-shadow:20px 15px 20px rgb(214, 204, 57);
+    align-items: center;
+}
+
+kontakt {
+    
+}
+
