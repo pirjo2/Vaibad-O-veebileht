@@ -101,11 +101,17 @@ alam_pealkiri {
 img#tiimipilt {
                                     
     height:290px;
-    box-shadow:20px 15px 20px rgb(214, 204, 57);
-    align-items: center;
+    box-shadow:5px 5px 20px;
+    align-content:right;
 }
 
-kontakt {
-    
+h1 {
+    color: #474743;
+    font-family: Garamond, serif;
+    text-shadow: 1px 1px 25px rgb(214, 204, 57);
+}
+
+p {
+    color:black;
 }
 
