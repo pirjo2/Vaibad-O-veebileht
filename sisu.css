@@ -100,9 +100,10 @@ alam_pealkiri {
 
 img#tiimipilt {
                                     
-    height:290px;
-    box-shadow:5px 5px 20px;
-    align-content:right;
+    height:200px;
+    box-shadow:3px 3px 12px;
+    display: flex;
+    
 }
 
 h1 {
@@ -111,7 +112,71 @@ h1 {
     text-shadow: 1px 1px 25px rgb(214, 204, 57);
 }
 
-p {
-    color:black;
+.kontakt {
+    margin-left: 280px;
+}
+
+.jalus {
+    margin-right: 15px;
+    color: #474743; font-family: Garamond, serif;
+    font-weight: bold;"
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.product {
+    margin: 27px;
+    
+
+}
+
+.row {
+    display: flex;
+
+}
+
+.image  {
+    margin-bottom: 5px;
+}
+
+.image img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow:1px 1px 10px rgb(0, 0, 0);
+}
+h3 {
+    margin-top: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.kirjeldus {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0;
+    
+}
+
+.alamosa {
+    align-items: center;
+    justify-content: center;
+    flex-flow: nowrap;
+    
+}
+
+asume {
+    float: right;
+    margin: 18px;
+    color: #474743;
+    font-weight: bold;
+    font-size: 170%;
+    font-family: Garamond, serif;
+    
 }
 

@@ -4,36 +4,111 @@
     <link rel="stylesheet" type="text/css" href="sisu.css" />
 </head>
 <body>
-<div class="header">
-    <a class="logo">Vaibad OÜ</a>
-    <div class="header-right">
-        <a class="active" href="Vaibad.html">Avaleht</a>
-        <a href="materjalid.html">Materjalid</a>
-        <a href="hinnad.html">Hinnad</a>
-        <a class="header-right-last" href="meist.html">Meist</a>
+    <div class="header">
+        <a class="logo">Vaibad OÜ</a>
+        <div class="header-right">
+            <a class="active" href="Vaibad.html">Avaleht</a>
+            <a href="materjalid.html">Materjalid</a>
+            <a href="hinnad.html">Hinnad</a>
+            <a class="header-right-last" href="meist.html">Meist</a>
+        </div>
     </div>
-</div>
 
-<div class="kesk">
-    <h1>Otsid vaipa? Tutvu meie valikuga!</h1>
-    <p>Vaip annab tuppa nii soojust kui ka värskust sõltumata aastaajast. Miski pole mõnusam kui koju jõudes jalanõud 
-    jalast võtta ning paljajalu vaibale asutuda. Erinevates suurustes ja mitmesugustest materjalidest vaibad 
-    teevad põrandal astumise soojemaks ja pehmemaks.</p>
-    <p>Some content..</p>
-    <pealkiri>Vaibad OÜ</pealkiri>
-    <br />
-    <alam_pealkiri>"Pehmus aastast 1990"</alam_pealkiri>
-<hr> 
-    <div>
-        <img  style="height: 17px; align-content: center;" src="telefon.png"> 
-        <span style="color: #474743; font-family: Garamond, serif;font-weight: bold;"> +372 7 787 234</span>
-        <img  style="width: 20px; align-items:baseline; margin-left: 12px;margin-right: 4px;" src="ümbrik.png">
-        <span style="color: #474743; font-family: Garamond, serif;font-weight: bold;"> info@vaibad.com</span>
-        <img style="height: 17px;margin-left: 12px;margin-right: 4px;" src="location.png">
-        <span style="color: #474743; font-family: Garamond, serif;font-weight: bold;"> Vaksali 18b, Tartu</span>     
+    <div class="kesk">
+        <h1>Otsid vaipa? Tutvu meie valikuga!</h1>
+        <p>Vaip annab tuppa nii soojust kui ka värskust sõltumata aastaajast. Miski pole mõnusam kui koju jõudes jalanõud 
+        jalast võtta ning paljajalu vaibale asutuda. Erinevates suurustes ja mitmesugustest materjalidest vaibad 
+        teevad põrandal astumise soojemaks ja pehmemaks.</p>
+        
+        <div class="container mt-5">
+            <div class="row">
+    
+                <div class="col-md-3">
+                    <div class="product">
+                        <div class="image">
+                            <img src="classic.jpg" alt="">
+                        </div>
+                        <!--image-->
+                        <div class="info">
+                            <h3>Klassikalised vaibad</h3>
+                            <kirjeldus></kirjeldus>
+                        </div>
+                        <!-- /.info -->
+                    </div>
+                    <!-- ./product -->
+                </div>
+                <!--/. col-md-3 -->
+                
+                
+                <div class="col-md-3">
+                    <div class="product">
+                        <div class="image">
+                            <img src="Modern.jpg" alt="">
+                        </div>
+                        <!--image-->
+                        <div class="info">
+                            <h3>Modernsed vaibad</h3>
+                            
+                        </div>
+                        <!-- /.info -->
+                    </div>
+                    <!-- ./product -->
+                </div>
+                <!--/. col-md-4 -->
+
+                <div class="col-md-3">
+                    <div class="product">
+                        <div class="image">
+                            <img src="lambanahk.jpg" alt="">
+                        </div>
+                        <!--image-->
+                        <div class="info">
+                            <h3>Lambanahk</h3>
+                            
+                        </div>
+                        <!-- /.info -->
+                    </div>
+                    <!-- ./product -->
+                </div>
+                <!--/. col-md-4 -->
+
+                <div class="col-md-3">
+                    <div class="product">
+                        <div class="image">
+                            <img src="uks.jpg" alt="">
+                        </div>
+                        <!--image-->
+                        <div class="info">
+                            <h3>Uksematid</h3>
+                            
+                        </div>
+                        <!-- /.info -->
+                    </div>
+                    <!-- ./product -->
+                </div>
+                <!--/. col-md-4 -->
+                
+            </div>
+            <!--/. row-->
+        </div>
+        <!-- /.container -->
+
+        <div class="alamosa">
+            <pealkiri>Vaibad OÜ</pealkiri>
+            <asume>Asume Tartus aadressil Vaksali 18b</asume>
+            <br />
+            <alam_pealkiri>"Pehmus aastast 1990"</alam_pealkiri>
+        </div>
+    <hr> 
+        <div class="kontakt" >  
+            <ion-icon name="call"></ion-icon>
+            <span class="jalus"> +372 7 787 234</span>
+            <ion-icon name="mail"></ion-icon>
+            <span class="jalus"> info@vaibad.com</jalus> 
+            <ion-icon name="location"></ion-icon>
+            <span class="jalus"> Vaksali 18b, Tartu</span>
+        </div>
     </div>
-</div>
-
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
