@@ -103,6 +103,7 @@ img#tiimipilt {
     height:200px;
     box-shadow:3px 3px 12px;
     display: flex;
+    margin-top: 20px;
     
 }
 
@@ -113,11 +114,14 @@ h1 {
 }
 
 .kontakt {
-    margin-left: 280px;
+    text-align-last: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .jalus {
-    margin-right: 15px;
+    margin-right: 10px;
     color: #474743; font-family: Garamond, serif;
     font-weight: bold;"
 
@@ -129,7 +133,6 @@ h1 {
 }
 .product {
     margin: 27px;
-    
 
 }
 
@@ -176,7 +179,56 @@ asume {
     color: #474743;
     font-weight: bold;
     font-size: 170%;
+    font-family: Garamond, serif;  
+}
+
+p {
+    color: #474743;
+    font-size: 18px;
+    font-family: Garamond, serif; 
+    font-weight: bold;
+}
+
+.btn-main {
     font-family: Garamond, serif;
+    color: #474743;
+    transition: all .09 ease-out;
+    display: inline-block;
+    padding: 10px 35px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    background-color:#fffff2;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgb(214, 204, 57);
+    transition: all .09s ease-out;
+    margin-left: 5px;
+}
+
+.btn-main:hover {
+    box-shadow: 0 5px 15px rgb(214, 204, 57, 5);
+    transform: scale(1.05);
+}
+
+.btn-main:active {
+    background-color: #fffff2;  
+    box-shadow: 0 1px 10px rgb(214, 204, 57);
+    transform: translateY(4px);
+}
+
+.materjal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    border: none;
+    align-items: right;
+    display: flex;
+    text-align: right;
+    flex-flow: row nowrap;
+    justify-content: space-between;
     
 }
 
