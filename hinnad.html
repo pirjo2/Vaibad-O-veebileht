@@ -16,7 +16,7 @@
 
     <div class="kesk">
         <h1>Vaiba hinnakalkulaator</h1>
-        <p>Allolevat kalkulaatorit saate kasutada soovitud vaipade potensiaalse hinna arvutamiseks. Reaalsed hinnad võivad eritellimuste puhul erineda kalkulaatori tulemustest.</p>
+        <p>Allolevat kalkulaatorit saate kasutada soovitud vaipade potensiaalse hinna arvutamiseks. Reaalsed hinnad võivad eritellimuste puhul erineda kalkulaatori tulemustest. Vaiba mõõtmed sisestage meetrides.</p>
         <p>Hinnakalkulaator</p> 
         <script src="kalkulaator.js"></script>
         <div class="kalk">
@@ -33,18 +33,20 @@
                 </select>
 
                 <div class="grupp">
-                    <label for="pikkus">Pikkus</label>
+                    <label for="pikkus">Pikkus:</label>
                     <input type="text" id="pikkus" class="grupp" name="pikkus" value="10">
                 </div>
 
                 <div class="grupp">
-                    <label for="laius">Laius</label>
+                    <label for="laius">Laius:</label>
                     <input type="text" id="laius" class="grupp" name="laius" value="10">
                 </div>
 
                 <button type="button" onclick="calcTotal()">
                     Arvuta!
                 </button>
+
+                <p>Hind:</p>
 
                 <div id="result"></div>
 
