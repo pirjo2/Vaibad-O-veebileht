@@ -15,9 +15,44 @@
     </div>
 
     <div class="kesk">
-        <h1>Responsive Header</h1>
-        <p></p>
-        <p>Some content..</p>
+        <h1>Vaiba hinnakalkulaator</h1>
+        <p>Allolevat kalkulaatorit saate kasutada soovitud vaipade potensiaalse hinna arvutamiseks. Reaalsed hinnad võivad eritellimuste puhul erineda kalkulaatori tulemustest.</p>
+        <p>Hinnakalkulaator</p> 
+        <script src="kalkulaator.js"></script>
+        <div class="kalk">
+            <form>
+
+                <label for="toode">Valige materjal:</label>
+                <select name="toode" id="toode">
+                    <option value="32.99">Vill</option>
+                    <option value="21.99">Polüpropüleen</option>
+                    <option value="14.99">Nailon</option>
+                    <option value="9.99">Polüester</option>
+                    <option value="25.99">Puuvill</option>
+
+                </select>
+
+                <div class="grupp">
+                    <label for="pikkus">Pikkus</label>
+                    <input type="text" id="pikkus" class="grupp" name="pikkus" value="10">
+                </div>
+
+                <div class="grupp">
+                    <label for="laius">Laius</label>
+                    <input type="text" id="laius" class="grupp" name="laius" value="10">
+                </div>
+
+                <button type="button" onclick="calcTotal()">
+                    Arvuta!
+                </button>
+
+                <div id="result"></div>
+
+            </form>
+
+            
+             
+
         <div class="alamosa">
             <pealkiri>Vaibad OÜ</pealkiri>
             <asume>Asume Tartus aadressil Vaksali 18b <button class="btn-main" onclick =" window.open('https://www.google.com/maps/place/Vaksali+18,+50409+Tartu/@58.3765403,26.7005733,17z/data=!3m1!4b1!4m5!3m4!1s0x46eb371d16368c8d:0xabd855912af2c530!8m2!3d58.3765403!4d26.702762')" > VAATA KAARDIL</button></asume>
