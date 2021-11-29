@@ -43,6 +43,7 @@
     object-fit: cover;
     object-position: bottom;
     margin-bottom: 5px;
+    border-radius: 15px;
   }
 
   /* Pildile ilmuv tekst*/
@@ -66,6 +67,7 @@
     justify-content: center;
     object-fit: cover;
     object-position: bottom;
+    border-radius: 15px;
   }
 /* Tumenduse peale panek kui kasutaja liigub üle pildi kursoriga*/
   .img-wrap:hover .bottom-left {
@@ -103,3 +105,17 @@
       width: 200px;
     }
   }
+
+  .video-embed {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-embed iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
