@@ -16,15 +16,19 @@
 
 /* Piltide määratlemine lehel*/
  .pildid {
-    flex: 25%
+    flex: 25%;
     float: left;
     width: 33.33%;
     padding: 0 5px;
     position: relative;
     text-align: center;
     color: white;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
     margin-top: 8px;
-    vertical-align: middle;
+    margin-bottom: 8px;
   }
   
   @media screen and (max-width: 800px) {
@@ -70,7 +74,8 @@
     right: 0;
     background: rgba(88, 78, 59, 0.418);
     font-size: x-large;
-    padding-top: 50%;
+    /* padding: 150px 160px; */
+    padding-top: 45%;
     color: #fff;
     visibility: hidden;
     opacity: 0;
@@ -83,4 +88,42 @@
   .img-wrap:hover .bottom-left {
     visibility: visible;
     opacity: 1;
+  }
+
+  .column {
+    text-align: -webkit-center;
+  }
+  .video {
+    text-align: -webkit-center;
+  }
+  .alam {
+    padding: 0 4px;
+  }
+  @media screen  and (max-width: 900px){
+    .video_raam {
+      width: 75%;
+      height: 75%;
+    }  
+  }
+  @media screen  and (max-width: 625px){
+    .img-wrap {
+      position: relative;
+      height: 250px;
+      width: 250px;
+    }
+    .bottom-left {
+      height: 250px;
+      width: 250px;
+    }
+  }
+  @media screen  and (max-width: 525px){
+    .img-wrap {
+      position: relative;
+      height: 200px;
+      width: 200px;
+    }
+    .bottom-left {
+      height: 200px;
+      width: 200px;
+    }
   }

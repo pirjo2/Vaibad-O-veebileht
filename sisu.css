@@ -63,12 +63,12 @@ body {
         margin-right: 200px;
     }
     .header a {
-#        margin-left: 100px;
+        /* margin-left: 100px; */
         display: block;
     }
     .header-right-last {
         float: right;
-#        margin-right: 100px;
+/* #        margin-right: 100px; */
     }
 }
 @media screen and (max-width: 700px) {
@@ -116,7 +116,7 @@ h1 {
 }
 
 .kontakt {
-    // margin-left: 280px;
+    padding-top: 12px;
     float: right;
     
 }
@@ -124,7 +124,7 @@ h1 {
 .jalus {
     margin-right: 15px;
     color: #474743; font-family: Garamond, serif;
-    font-weight: bold;"
+    font-weight: bold;
 
 }
 
@@ -190,7 +190,17 @@ asume {
     
 }
 
-.osa {
-
+.maps{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.maps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
