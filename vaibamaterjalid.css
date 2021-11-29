@@ -8,7 +8,7 @@
     border: 0;
   }
   
-
+/* Piltide määratlemine lehel*/
  .pildid {
     float: left;
     width: 33.33%;
@@ -18,20 +18,20 @@
     color: white;
   }
   
-  /* Clear floats after image containers */
+
   .alam::after {
     content: "";
     clear: both;
     display: table;
   }
-
+/* Pildi kohale ilmuv tumendus*/
   .img-wrap {
     position: relative;
     height: 350px;
     width: 100%;
   }
 
-  /* Bottom left text */
+  /* Pildile ilmuv tekst*/
  .bottom-left {
     position:absolute;
     top: 0;
@@ -47,7 +47,7 @@
     align-items: center;
     justify-content: center;
   }
-
+/* Tumenduse peale panek kui kasutaja liigub üle pildi kursoriga*/
   .img-wrap:hover .bottom-left {
     visibility: visible;
     opacity: 1;
