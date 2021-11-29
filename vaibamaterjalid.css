@@ -7,19 +7,14 @@
     padding: 0;
     border: 0;
   }
-  
-  .alam {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
+
 
 /* Piltide määratlemine lehel*/
  .pildid {
-    flex: 25%;
-    float: left;
-    width: 33.33%;
-    padding: 0 5px;
+    
+    
+    width: inherit;
+    padding: 0 10px;
     position: relative;
     text-align: center;
     color: white;
@@ -30,21 +25,7 @@
     margin-top: 8px;
     margin-bottom: 8px;
   }
-  
-  @media screen and (max-width: 800px) {
-    .pildid,
-    .bottom-left {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
 
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
 
   .alam::after {
     content: "";
@@ -55,18 +36,20 @@
   .img-wrap {
     position: relative;
     height: 350px;
-    margin-top: 8px;
+    width: 350px;
+    margin-top: 0px;
     vertical-align: middle;
     max-width: 100%;
     object-fit: cover;
     object-position: bottom;
+    margin-bottom: 5px;
   }
 
   /* Pildile ilmuv tekst*/
  .bottom-left {
 
     position:absolute;
-    flex: 25%;
+
     max-width: 100%;
     top: 0;
     bottom: 0;
@@ -93,18 +76,11 @@
   .column {
     text-align: -webkit-center;
   }
-  .video {
-    text-align: -webkit-center;
-  }
+
   .alam {
     padding: 0 4px;
   }
-  @media screen  and (max-width: 900px){
-    .video_raam {
-      width: 75%;
-      height: 75%;
-    }  
-  }
+ 
   @media screen  and (max-width: 625px){
     .img-wrap {
       position: relative;
